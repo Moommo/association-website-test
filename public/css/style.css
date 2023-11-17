@@ -17,6 +17,10 @@ img.logo {
 nav {
     background-color: #386FA8;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
 }
 
 nav a {
@@ -30,10 +34,35 @@ nav a {
 
 nav a:hover {
     cursor: pointer;
-    background-color: #ddd;
+    background-color: rgba(217, 217, 217, 0.26);
     color: black;
+    border-radius: 1rem;
 }
 
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+}
+
+.search-bar button {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.search-bar button img {
+    width: 20px;
+    height: 10px;
+    vertical-align: middle;
+}
 
 main {
     padding: 20px;
