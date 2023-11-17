@@ -3,5 +3,5 @@ window.addEventListener('scroll', function() {
   const main = document.querySelector('main');
   const distanceFromTop = main.getBoundingClientRect().bottom;
 
-  footer.style.bottom = distanceFromTop <= window.innerHeight ? '0' : '-50px';
+  footer.style.bottom = distanceFromTop <= window.innerHeight/2 ? '0' : '-50px';
 });
