@@ -91,6 +91,7 @@ article {
 
 .article {
     width: 45%;
+    height: 400px;
     padding: 4px;
     box-sizing: border-box;
     border-radius: 40px;
@@ -111,6 +112,7 @@ article {
 .article img  {
     max-width: 100%;
     height: auto;
+    border-radius: 2rem;
 }
 
 .date {
